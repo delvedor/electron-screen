@@ -34,7 +34,7 @@ $ npm build .
 ## Contributing
 If you feel you can help in any way, be it with examples, extra testing, or new features please open a pull request or open an issue.
 
-I would make a special thanks to [@framp](https://github.com/framp) for helping me to improving the code.
+I would make a special thanks to [@Corralx](https://github.com/Corralx) for helping me to improving the code.
 
 The code follows the Standard code style.  
 [![js-standard-style](https://cdn.rawgit.com/feross/standard/master/badge.svg)](https://github.com/feross/standard)
