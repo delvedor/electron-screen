@@ -1,15 +1,21 @@
 'use strict'
 
-module.exports = (function getInfo () {
+/*
+ * Project: electron-screen
+ * Version: 1.0.1
+ * Author: delvedor
+ * Twitter: @delvedor
+ * License: MIT
+ * GitHub: https://github.com/delvedor/electron-screen
+ */
+
+function getScreenInfo () {
   if (process.platform === 'win32') {
     const screen = require('./build/Release/electronscreen').getInfo
     return screen
   } else {
-    try {
-      const screen = require('electron').screen
-      return screen.getAllDisplays
-    } catch (error) {
-      throw new Error('Error: Cannot find module \'electron\'')
-    }
+    throw new Error('electron-screen works only under Windows OS.')
   }
-}())
+}
+
+module.exports = getScreenInfo

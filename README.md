@@ -4,7 +4,8 @@
 Small Module that returns an array with all the monitors connected to the pc with their resolution and position.  
 The standard API of electron already do this, but under Windows the screen api suffers lot of issues.
 
-If you are under Windows, `electron-screen` uses the custom *screen.cc* library, otherwise it returns the standard electron method *getAllDisplays*.
+**Works only under Windows OS!**  
+If you want to manage screens with other OS have a look [here](https://github.com/electron/electron/blob/master/docs/api/screen.md).
 
 ## Usage
 Download and install `electron-screen` through npm, then require it:
@@ -24,7 +25,6 @@ Under **Windows** `electron-screen` returns the following object:
   }
 }
 ```
-Under other OS it returns the standard screen object as seen [here](https://github.com/electron/electron/blob/master/docs/api/screen.md).
 
 ## Build
 ```
