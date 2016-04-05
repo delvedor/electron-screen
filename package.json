@@ -1,8 +1,8 @@
 {
-  "name": "node-monitor",
+  "name": "electron-screen",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "screen.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },

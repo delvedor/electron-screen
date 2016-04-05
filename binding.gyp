@@ -1,8 +1,8 @@
 {
   "targets": [
     {
-      "target_name": "monitor",
-      "sources": [ "monitor.cc" ]
+      "target_name": "screen",
+      "sources": [ "src/screen.cc" ]
     }
   ]
 }
