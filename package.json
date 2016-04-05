@@ -1,12 +1,22 @@
 {
   "name": "electron-screen",
   "version": "1.0.0",
-  "description": "",
+  "description": "Small Module that returns an array with all the monitors connected to the pc with their resolution and position.",
   "main": "screen.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/delvedor/electron-screen.git"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC"
+  "keywords": [
+    "electron",
+    "monitor",
+    "display",
+    "screen"
+  ],
+  "author": "Tomas Della Vedova - @delvedor (http://delved.org)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/delvedor/electron-screen/issues"
+  },
+  "homepage": "https://github.com/delvedor/electron-screen"
 }
