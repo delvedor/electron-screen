@@ -1,7 +1,7 @@
 {
   "targets": [
     {
-      "target_name": "screen",
+      "target_name": "electronscreen",
       "sources": [ "src/screen.cc" ]
     }
   ]

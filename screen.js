@@ -1,8 +1,9 @@
 'use strict'
 
-module.exports = function getInfo () {
+module.exports = (function getInfo () {
   if (process.platform === 'win32') {
-    return require('./build/Release/screen').getInfo
+    const screen = require('./build/Release/electronscreen').getInfo
+    return screen
   } else {
     try {
       const screen = require('electron').screen
@@ -11,4 +12,4 @@ module.exports = function getInfo () {
       throw new Error('Error: Cannot find module \'electron\'')
     }
   }
-}
+}())

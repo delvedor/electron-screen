@@ -16,7 +16,7 @@ using v8::Local;
 // using v8::Null;
 using v8::Int32;
 using v8::Object;
-// using v8::String;
+using v8::String;
 using v8::Value;
 using v8::Array;
 // using v8::Number;
@@ -87,7 +87,7 @@ void init(Local<Object> exports) {
   NODE_SET_METHOD(exports, "getInfo", getInfo);
 }
 
-NODE_MODULE(electron-screen, init)
+NODE_MODULE(electronscreen, init)
 
 }
 
