@@ -10,7 +10,7 @@ If you want to manage screens with other OS have a look [here](https://github.co
 ## Usage
 Download and install `electron-screen` through npm, then require it:
 ```javascript
-const screen = require('electron-screen')
+const screen = require('electron-screen')()
 
 console.log(screen())
 ```
