@@ -38,7 +38,7 @@ struct screen_info {
 /**
  * Gets information about hMonitor
  */
-BOOL InfoMonitor (HMONITOR hMonitor, HDC hdcMonitor, LPRECT lprcMonitor, LPARAM dwData) {
+BOOL __cdecl InfoMonitor (HMONITOR hMonitor, HDC hdcMonitor, LPRECT lprcMonitor, LPARAM dwData) {
   std::vector<screen_info>& infos = *((std::vector<screen_info>*)dwData);
 
   MONITORINFOEX mon_info{};
