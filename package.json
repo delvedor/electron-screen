@@ -1,6 +1,6 @@
 {
   "name": "electron-screen",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Small Module that returns an array with all the monitors connected to the pc with their resolution and position.",
   "main": "screen.js",
   "repository": {
