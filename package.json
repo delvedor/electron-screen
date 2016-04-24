@@ -7,16 +7,23 @@
     "type": "git",
     "url": "https://github.com/delvedor/electron-screen.git"
   },
+  "os": [
+    "win32"
+  ],
   "keywords": [
     "electron",
     "monitor",
     "display",
-    "screen"
+    "screen",
+    "Windows"
   ],
   "author": "Tomas Della Vedova - @delvedor (http://delved.org)",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/delvedor/electron-screen/issues"
   },
-  "homepage": "https://github.com/delvedor/electron-screen"
+  "homepage": "https://github.com/delvedor/electron-screen",
+  "dependencies": {
+    "bindings": "^1.2.1"
+  }
 }

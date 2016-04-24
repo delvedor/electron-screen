@@ -10,26 +10,33 @@ If you want to manage screens with other OS have a look [here](https://github.co
 ## Usage
 Download and install `electron-screen` through npm, then require it:
 ```javascript
-const screen = require('electron-screen')()
+const screen = require('electron-screen')
 
 console.log(screen())
 ```
-Under **Windows** `electron-screen` returns the following object:
+Under **Windows** `electron-screen` returns the following array of objects, where every object is a different screen :
 ```javascript
-{
+[{
   bounds: {
     x: Number,
     y: Number,
     width: Number,
     height: Number
   }
-}
+}]
 ```
 
 ## Build
+- For testing:
 ```
 $ npm build .
 ```
+- For use the module inside Electron:  
+Follow [this](http://electron.atom.io/docs/v0.37.6/tutorial/using-native-node-modules/#the-npm-way) instructions.
+
+## TODO
+- [ ] Wrap Electron's native screen API and use electron-screen only under Windows.
+- [ ] Add testing
 
 ## Contributing
 If you feel you can help in any way, be it with examples, extra testing, or new features please open a pull request or open an issue.
